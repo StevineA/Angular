@@ -1,0 +1,7 @@
+<div class="dropdown-container" *ngFor="let dropdown of dropdowns">
+    <label [for]="dropdown.id">{{ dropdown.label }}</label>
+    <select [id]="dropdown.id" [(ngModel)]="selectedOptions[dropdown.id]">
+      <option *ngFor="let option of dropdown.options" [value]="option">{{ option }}</option>
+    </select>
+  </div>
+  

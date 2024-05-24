@@ -1,0 +1,18 @@
+.container {
+    width: 80%; /* Assure que le conteneur prend toute la largeur */
+    padding: 70px; /* Optionnel : ajout de padding pour espacement */
+   
+  }
+  
+  .search-button {
+    float: right; /* Aligne le bouton à droite */
+    background-color: #c9e1ec; /* Couleur de fond verte */
+    border: none; /* Pas de bordure */
+    color: rgb(22, 19, 19); /* Texte blanc */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    text-align: center; /* Centrage du texte */
+    font-size: 20px; /* Taille de la police */
+    cursor: pointer; /* Curseur en forme de main */
+    border-radius: 8px; /* Bordures arrondies */
+  }
+  

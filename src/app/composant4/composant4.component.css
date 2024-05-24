@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif; /* Utilise la police Arial */
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+    margin: 0; 
+    background-color: #f0f0f0; /* Couleur de fond optionnelle pour la page */
+  }
+  
+  .search-bar {
+    background-color: #6bcfbe; /* Couleur de fond verte */
+    color: black; /* Couleur du texte en noir */
+    padding: 20px 40px; /* Espacement interne */
+    text-align: center; /* Centrage du texte */
+    font-size: 18px; /* Taille de la police */
+    border-radius: 8px; /* Bordures arrondies */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre portée */
+  }
